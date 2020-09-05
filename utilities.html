@@ -1,0 +1,116 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSRF Token -->
+    <meta name="csrf-token" content="4c9wwPkwqP8aUyNUBKUFh25OFJEAV8W8x5XLDtmq">
+
+        <title>Addons</title>
+    
+    <!-- Scripts -->
+    <script src="https://tsuniox2.github.io/js/app.js" defer></script>
+    <script src="https://tsuniox2.github.io/js/script.js" defer></script>
+
+    <!-- Fonts -->
+    <link rel="dns-prefetch" href="//fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.21/css/dataTables.bootstrap4.min.css">
+
+    <!-- Styles -->
+    <link href="https://tsuniox2.github.io/css/app.css" rel="stylesheet">
+</head>
+<body>
+    <div id="app">
+        <nav class="nav">
+    <div class="nav-wrapper container">
+        <a class="nav-brand active" aria-current="page" href="/">
+            EnsoulSharp Database
+        </a>
+
+        <ul class="nav-links d-none d-flex ml-auto">
+            <li class="nav-item">
+                <a class="nav-link " href="/champions" aria-current="page">
+                    Champions
+                </a>
+            </li>
+            <li class="nav-item ">
+                <a class="nav-link active" href="/utilities" aria-current="page">
+                    Utilities
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled" aria-current="page">
+                    |
+                </a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+        <main class="container">
+            
+<div class="table-responsive">
+   <div class="table-wrapper">
+      <div class="table-title">
+         <div class="row">
+            <div class="col-sm-6">
+               <h2>Available <b>Utilities</b></h2>
+            </div>
+         </div>
+      </div>
+      <table id="table" class="table table-striped table-hover">
+         <thead>
+            <tr>
+               <th>State</th>
+               <th>Name</th>
+               <th>Description</th>
+               <th>Developer</th>
+               <th>Github Link</th>
+            </tr>
+         </thead>
+         <tbody>
+                        <tr>
+                <td>
+                                            <button type="button" class="btn btn-success"
+                                style="">Updated</button>
+                                    </td>
+               <td>EzEvade</td>
+               <td>Automatically dodging enemy spells and traps</td>
+               <td>Ensoulsharp.Team</td>
+               <td>
+                    <a target="_blank" rel="noopener noreferrer" href="https://github.com/ensoulsharp-io/EnsoulSharp.Assemblies"> 
+                        https://github.com/ensoulsharp-io/EnsoulSharp.Assemblies
+                    </a>
+                </td>
+            </tr>
+                     </tbody>
+      </table>
+   </div>
+</div>
+
+
+        </main>
+
+        <footer class="footer page-footer font-small special-color-dark pt-4">
+  <div class="footer-copyright text-center py-3">© 2020 Copyright: 
+    <a href="https://github.com/KappaHDEnsoul"> KappaHD</a>
+      &  
+    <a href="https://www.youtube.com/watch?v=VimTSqB0IZA"> Yikers</a>
+  </div>
+</footer>    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script>
+        $.ajaxSetup({
+            headers: {
+                'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+            }
+        });
+    </script>
+</body>
+</html>
